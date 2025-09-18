@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node api/node server.js"
-  },
+    "start": "node api/node server.js",
+    "vercel-build": "echo 'Vercel Build'"
+  },                                      
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
