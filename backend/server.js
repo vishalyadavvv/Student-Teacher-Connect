@@ -13,8 +13,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173", // for local development
-  "https://student-teacher-connect-eo2lhmgsf-vishalyadavvvs-projects.vercel.app",
-  "https://student-teacher-connect-jet.vercel.app" // production frontend
+  "https://teacherstudentassignment.netlify.app" // production frontend
 ];
 
 app.use(cors({
